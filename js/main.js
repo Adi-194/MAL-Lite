@@ -18,7 +18,7 @@ function getAnimes(searchText){
                 <div class="text-center well">
                     <img src="${anime.image_url}" class="pt-5">
                     <h5>${anime.title}</h5>
-                    <a onclick="animeSelected('${anime.image_url}','${anime.title}','${anime.synopsis}')" class="btn btn-warning" href="#">Anime Details</a>
+                    <a onclick="animeSelected('${anime.image_url}','${anime.title.replace(/"/g,'&quot;').replace(/'/g,"&quot;")}','${anime.synopsis.replace(/"/g,'&quot;').replace(/'/g,"&quot;")}')" class="btn btn-warning" href="#">Anime Details</a>
                 </div>
             </div>
             `;
