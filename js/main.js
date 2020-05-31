@@ -39,7 +39,7 @@ function animeSelected(image,title,syn){
     //sessionStorage.setItem('synopsis',syn);
     //window.location = 'anime.html';
     display = `
-    <div class="row pt-5 pr-5">
+    <div class="row pt-5 text-center">
         <div class="col-lg-4 col-mg-4 col-12">
          <img src='${image}' class="img-fluid">
         </div>
