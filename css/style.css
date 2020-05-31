@@ -1,0 +1,12 @@
+#animes img, #anime img{
+    width : 80%;
+}
+@media(min-width : 960px){
+    #animes .well{
+      height : 390px;
+    }
+
+    #animes .col-md-3 img{
+     height : 240px;
+    }
+}
